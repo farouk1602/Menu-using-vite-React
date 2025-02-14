@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SUSE", serif;
+    text-transform: capitalize;
+}
+
+.home , .reports , .products ,.messages , .team , .support {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 82vh;
+    background-color: #FBFBFB;
+    margin: 1rem;
+    border: 2px solid #FFB22C;
+    border-radius: 5px;
+} 
